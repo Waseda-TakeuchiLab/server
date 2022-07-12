@@ -1,7 +1,7 @@
 # Copyright (c) 2022 Shuhei Nitta. All rights reserved.
 
-
 # Power management
+# Waking 9:00-21:00 except Saturday and Sunday
 0 12 * * mon-thu wakealarm 21
 0 12 * * fri wakealarm 69
 0 21 * * * shutdown now
